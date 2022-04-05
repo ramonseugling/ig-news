@@ -10,7 +10,7 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
-    "@prismicio/client": "^6.4.2",
+    "@prismicio/client": "5.1.1",
     "@prismicio/helpers": "^2.2.1",
     "@prismicio/react": "^2.2.0",
     "@prismicio/slice-simulator-react": "^0.2.1",
@@ -19,6 +19,7 @@
     "faunadb": "^4.5.2",
     "next": "12.1.0",
     "next-auth": "^4.3.1",
+    "prismic-dom": "^2.2.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "17.0.21",
+    "@types/prismic-dom": "^2.1.1",
     "@types/react": "17.0.40",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
