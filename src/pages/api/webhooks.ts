@@ -64,8 +64,8 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
               .object as Stripe.Checkout.Session;
 
             await saveSubscription(
-              checkoutSession.subscription.toString(),
-              checkoutSession.customer.toString(),
+              checkoutSession?.subscription?.toString()!,
+              checkoutSession?.customer?.toString()!,
               true
             );
 
